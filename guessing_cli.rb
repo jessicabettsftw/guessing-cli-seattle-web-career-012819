@@ -20,6 +20,9 @@ def run_guessing_game()
         else
           puts "Guess a number between 1 and 6."
         end
+      else
+        puts "Guess a number between 1 and 6."
+      end
     end
     puts "Guess a number between 1 and 6."
   end
