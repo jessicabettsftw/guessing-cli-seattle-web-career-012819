@@ -9,7 +9,7 @@ def run_guessing_game()
       puts "goodbye"
       keep_going = false
     else
-      
+      puts "yo"
     end
   end
 end
