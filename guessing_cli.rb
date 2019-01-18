@@ -5,7 +5,7 @@ def run_guessing_game()
   while keep_going 
     user_input = gets.chomp
     if user_input.downcase == "exit"
-      puts "goodbye"
+      puts "Goodbye!"
       keep_going = false
     else
       is_int = Integer(user_input) rescue nil
