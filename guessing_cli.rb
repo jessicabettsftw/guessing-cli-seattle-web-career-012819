@@ -19,8 +19,6 @@ def run_guessing_game()
             puts "The computer guessed #{random}."
           end
         end
-      else
-        puts "Guess a number between 1 and 6."
       end
     end
   end
