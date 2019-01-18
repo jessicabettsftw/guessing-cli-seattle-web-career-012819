@@ -1,6 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game()
+  puts "Guess a number between 1 and 6."
   keep_going = true
   while keep_going 
     user_input = gets.chomp
@@ -23,7 +24,6 @@ def run_guessing_game()
       else
         puts "Guess a number between 1 and 6."
       end
-    puts "Guess a number between 1 and 6."
     end
   end
 end
