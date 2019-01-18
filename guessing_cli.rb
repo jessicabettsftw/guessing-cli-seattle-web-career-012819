@@ -15,7 +15,7 @@ def run_guessing_game()
           if random == is_int
             puts "You guessed the correct number!"
           else
-            puts "The computer guessed #{random}"
+            puts "The computer guessed #{random}."
           end
         else
           puts "Guess a number between 1 and 6."
