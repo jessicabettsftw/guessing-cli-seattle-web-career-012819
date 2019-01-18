@@ -11,6 +11,7 @@ def run_guessing_game()
       is_int = Integer(user_input) rescue nil
       if is_int != nil
         if is_int > 0 && is_int < 7
+          random = rand(1, 6)
     end
     puts "Guess a number between 1 and 6."
   end
